@@ -13,7 +13,7 @@ function App() {
       wage: Number(wage)
     };
 
-    const response = await fetch("http://localhost:3000/workers", {
+    const response = await fetch("https://rane-agro-farms-backend.onrender.com/workers", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
