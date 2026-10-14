@@ -1,0 +1,41 @@
+/* General Page Styling */
+body {
+    background-color: #f4f8f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+    letter-spacing: 1px;
+}
+
+/* Main Heading */
+h1 {
+    margin-top: 20px;
+}
+
+/* Registration Card */
+.card {
+    max-width: 700px;
+    margin: auto;
+    border: none;
+    border-radius: 15px;
+}
+
+/* Form Labels */
+.form-label {
+    font-weight: 600;
+}
+
+/* Form Inputs */
+.form-control,
+.form-select {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* Buttons */
+.btn {
+    padding: 10px 25px;
+    border-radius: 8px;
+}
